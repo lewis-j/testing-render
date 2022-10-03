@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
+function MyApp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +20,19 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+function Tester() {
+  return <h1>testing</h1>;
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<MyApp />} />
+      <Route path="/test" element={<Tester />} />
+    </Routes>
   );
 }
 
