@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Tester from "./components/Tester";
+import { Tester } from "./components/Tester";
 import { Route, Routes } from "react-router-dom";
 
 function MyApp() {
