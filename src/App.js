@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Tester from "./components/Tester";
 import { Route, Routes } from "react-router-dom";
 
 function MyApp() {
@@ -21,10 +22,6 @@ function MyApp() {
       </header>
     </div>
   );
-}
-
-function Tester() {
-  return <h1>testing</h1>;
 }
 
 function App() {
